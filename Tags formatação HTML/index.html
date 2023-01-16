@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo-estudo-programação</title>
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/estilo.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <h1 class="texto-cabecalho">COMENTÁRIOS E RESUMOS DO ESTUDO DE PROGRAMAÇÃO!!!</h1>
+    </div>
+
+    <div class="botoes-paginas">
+        <li>
+            <a href="./paginas/html.html" target="_blank" class="botao-html">HTML</a>
+        </li>
+        <li>
+            <a href="./paginas/css.html" target="_blank" class="botao-css">CSS</a>
+        </li>
+        <li>
+            <a href="./paginas/Javascript.html" target="_blank" class="botao-js">Java Script</a>
+        </li>
+        <li>
+            <a href="./paginas/git-github.html" target="_blank" class="botao-git">Git e Github</a>
+        </li>
+        <li>
+            <a href="./paginas/Banco-dados.html" target="_blank" class="botao-banco-dados">Banco de dados</a>
+        </li>
+    </div>
+
+    <div class="corpo">
+        <ul style="list-style: square;">
+            <li><b>b = Para colocar palavras em negrito (sem semântica).</b></li>
+            <li><strong>strong = para colocar palavras em negrito (com semântica).</strong></li>
+            <li><u>u = Para sublinhar a palavra.</u></li>
+            <li>del = <del>para cortar a palavra no meio.</del></li>
+            <li><i>i = para deixar o texto itálico (sem semântica).</i></li>
+            <li><em>em = para deixar o texto itálico (com semântica).</em></li>
+            <li><small>small = serve para deixar o texto pequeno.</small></li>
+            <li><mark>mark = serve para marcar o texto.</mark></li>
+            <li>A tag "sup" elevar o texto como se fosse o grau, ex. <sup>o</sup> ; <sup>a</sup>.</li>
+            <li>A tag "sub" baixa o texto como se fosse o grau, ex. <sub>o</sub> ; <sub>a</sub>.</li>
+            <li>A tag "< !-- -- >" serve para fazer comentários no código.</li>
+        </ul>
+    </div>
+
+    <div class="div-tabela">
+        <h1 class="titulo-tabela">Comandos de tabelas</h1>
+        <table border="0">
+            <thead>
+                <tr>
+                    <th class="col-1">Comando</th>
+                    <th class="col-1">Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-1">table</td>
+                    <td>Comando inicial para se fazer uma tabela</td>
+                </tr>
+                <tr>
+                    <td class="col-1">thead</td>
+                    <td>Comando para colocar o cabeçalho da tabela ( Não tem aplicação vizual, mas informa ao navegador que é o cabeçalho, assim se a tabela for muito grande e usar várias páginas, ele mantém o cabeçalho em cada página)</td>
+                </tr>
+                <tr>
+                    <td class="col-1">tbody</td>
+                    <td>Comando para colocar o corpo da tabela ( Não tem aplicação vizual)</td>
+                </tr>
+                    <td class="col-1">tr</td>
+                    <td>Comando para criar linhas na tabela</td>
+                <tr>
+                    <td class="col-1">td</td>
+                    <td>Comando para criar colunas na tabela (comando usado dentro do tr)</td>
+                </tr>
+                <tr>
+                    <td class="col-1">th</td>
+                    <td>Comando para se colocar um cabeçalho na tabela (vai dentro do tr, nessa tabela as palavras comando e descrição estão dentro do th que estar dentro de um tr, que por sua vez estar dentro do thead)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="formulario">
+        <h2 class="formulario-titulo">Atributos de Formulários</h2>
+        <ol type="1">
+            <li><strong>form</strong> - Cria-se p formulário</li>
+            <li><strong>action</strong> - Usa-se para informar quais os destinos das informações inceridas no formulário pelo usuário</li>
+            <li><strong>method</strong> - É o método de envio das informações que são divididos nos dois atributos abaixo</li>
+            <li><strong>get</strong> - Pega as informações do formulário e mostra na barra de navegação da página informada no method</li>
+            <li><strong>post</strong> - Envia as informações internamente, sem mostrar as mesmas na url. Exemplo de uso: senhas</li>
+            <li><strong><u>imput</u></strong>(tag mais importante dos formulário) - Serve para pegar dados do usuário. É importante adicionar o atributo name nos campos de formulários.
+                <ol type="a">
+                    <li>
+                        text - campo para digitar textos
+                        Ex.
+                        <form action="./paginas/pagina-teste.html" method="get">
+                            <input type="text" name="Usuário" value="Jardel" />
+                            <input type="submit" value="Enviar" />
+                        </form>
+                    </li>
+                    <li>
+                        value = prestabelece um valor para os campos de inputs. Ex. nos campos dos outros atributos. <br>
+                    </li>
+                    <li>
+                        passoword - campo para digitar senhas (não aparece o conteúdo digitado)
+                            Ex.
+                            <form action="./paginas/pagina-teste.html" method="post">
+                                <input type="password" />
+                            </form>
+                    </li>
+                    <li>
+                        checkbox - campo para para marcar e desmarcar.
+                            <form action="./paginas/pagina-teste.html" method="post">
+                                Ex. <input type="checkbox" />
+                            </form>
+                    </li>
+                    <li>
+                        radio - campo para marcar caixa de seleção, só pode ser usado em grupo
+                            Ex.
+                            <form action="./paginas/pagina-teste.html" method="post">
+                                <input type="radio" name="sexo" />
+                                Masculino <br>
+                                <input type="radio" name="sexo" />
+                                Feminino <br>
+                                <input type="radio" name="sexo" />
+                                Prefiro não responder
+                            </form>
+                    </li>
+                    <li>
+                        submit - Botão para enviar o formulário
+                            Ex.
+                            <form action="./paginas/pagina-teste.html" method="post">
+                                <input type="submit" />
+                            </form>
+                    </li>
+                    <li>
+                        e-mail - Campo semelhante a text, no entanto só aceita textos nos formatos de email
+                            Ex.
+                            <form action="./paginas/pagina-teste.html" method="post">
+                                <input type="email" />
+                            </form>
+                    </li>
+                    <li>
+                        color - Abre uma palheta de cor no navegador para o usuário escolher.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="color">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        date - Abre um campo com datas para escolha do usuário.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="date">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        datetime-local - Abre um campo com datas e hora para escolha do usuário.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="datetime-local">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        month - Abre um campo para se colocar mês e ano.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="month">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        number - Abre um campo que só aceitar receber números.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="number">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        range - Abre uma barra com uma bolinhas para regular.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="range">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        search - Apenas uma variação do text.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="search">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        tel - Recebe números de telefones.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="tel">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        time - Abre um campo com horas para escolha do usuário.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="time">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        url - Recebe uma url.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="url">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        week - Recebe uma semana X do ano X.
+                                <form action="./paginas/pagina-teste.html" method="get">
+                                    <input type="week">
+                                    <input type="submit">
+                                </form>
+                    </li>
+                    <li>
+                        Select - O select cria uma caixa que abre várias opções para escolher do usuário conforme exemplo abaixo. Dentro select se usa a tag option para definir as opções que virão dentro da caixa, na tag option ainda pode se usar o atributo value para se definir um valor para aquela opção da caixa. Há ainda o atributo selected que se usa dentro do option para se mostrar aquela opção inicialmente na caixa, caso não seja usado esse atributo, aparecerá a primeira opção do option. Algumas situações, os programadores colocam um option em branco, assim a caixa fica vazia inicialmente sem mostrar nenhuma opção. Para se transformar o select em multipla escolha se usa dois atributos dentro do select: size com o número de atributos que se pode ser escolhido e o atributo multiple.
+                        <form action="/paginas/pagina-teste.html" method="get">
+                            <select name="ordenacao" size="2" multiple>
+                                <option></option>
+                                <option value="1">Brasil</option>
+                                <option value="2">Portugal</option>
+                                <option value="3">Dubai</option>
+                            </select>
+                            <input type="submit">
+                        </form>
+                    </li>
+                    <li>
+                        textarea - Esse recurso dos formulários criam uma caixa para texto grande, para o mesmo existem os atributos "name" para se nomear aquela caixa, os atributos "cols" e "rows" para se especificar as quantidades de linhas e colunas que cabem no formulário, no entanto esses dois últimos não são mais usados devido a variação de interpretação de um navegador para outro. Ex. abaixo:
+
+                        <form action="./paginas/pagina-teste.html" method="get">
+                            <textarea name="nome-da-caixa"></textarea>
+                            <input type="submit">
+                        </form>
+                    </li>
+                    <li>
+                        button:Nada mais que um botão com um texto para enviar qualquer coisa, substitui o submit. <br>
+                        <form action="./paginas/pagina-teste.html" method="get">
+                            <button>Texto qualquer</button>
+                        </form>
+                    </li>
+                    <li>
+                        Input type file: É um input para o usuário enviar arquivos. Com uso do comando "accept", pode-se selecionar o tipo de arquivo exigido, ex. image/* para aceitar apenas imagens, application/pdf para exigir apenas PDF e etc. Sempre que for ser usado inputs files em formulários, deve-se usar no titulo do formulário o atributo "enctype = multpart/form-date", esse atributo envia todo os arquivos em formas de bytes, caso não seja adiocionado, corre o risco de o servidor não receber o arquivo. <br>
+                        Foto
+                        <input type="file" name="photo" accept="image/*" />
+                    </li>
+                    
+                </ol>
+            </li>
+            <li>- <strong><u>label:</u></strong> O atributo label transforma todo o texto clicável, assim não se precisa clica precisamente dentro da caixa de texto ou dentro da checkbox, bastando clicar no texto. Ex. <br>
+                <form action="./paginas/pagina-teste.html" method="get">
+                    <label>
+                        <input type="checkbox">
+                        Clique nesse texto que a checkbox será marcada.
+                    </label>
+                    <br>
+                    <label>
+                        <input type="text">
+                        Clique nesse texto para escrever na caixa de texto.
+                    </label>
+                </form>
+            </li> <br>
+            <li> - <strong><u>Fieldset e Legend</u></strong> - As tags fieldset e legend, respectivamente separam um formulário do outro item por campo, e dão legenda a cada campo. Exemplo do formulário abaixo: <br>
+                <form action="./paginas/pagina-teste.html" method="get">
+                    <fieldset>
+                        <legend>Dados Pessoais:</legend>
+                        <label>
+                            Primeiro nome <br>
+                            <input type="text" name="nome" required minlength="2" maxlength="5" />
+                        </label> <br>
+                        <label>
+                            Sobrenome <br>
+                            <input type="text" name="sobrenome" />
+                        </label> <br>
+                        <label>
+                            Idade <br>
+                            <input type="number" name="idade" step="2" max="100" min="18" />
+                        </label> <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dados profissionais:</legend>
+                        <label>
+                            Nome da empresa <br>
+                            <input type="text" name="nome-empresa" />
+                        </label> <br>   
+                        <label>
+                            Cargo <br>
+                            <input type="text" name="cargo" />
+                        </label> <br>
+                    </fieldset>
+                    <input type="submit" value="Cadastrar">
+                </form> <br>
+            </li>
+            <li>
+                <strong>Validações nativas:</strong> São validações feitas nos formulários para se cetificar que o usuário vai responder aos campos de acodo com o pedido pelo mesmo. Existem as validações que podem feitas através do JS, no entanto essa que vamos aprender chama-se nativas por que usam recursos do navegador.
+            </li>
+            <li>
+                <strong>Required:</strong> Esse recurso usado no campo  do formulário, obriga ao usuário a preencher aquele campo antes de enviar o formulário. No exemplo de formulário acima há o recurso presente no campo "Primeiro nome".
+            </li>
+            <li>
+                <strong>minlength:</strong> Esse recurso usado no campo  do formulário, obriga ao usuário a usar uma quatidade mínima de caracteres naquele campo. No exemplo de formulário acima há o recurso presente no campo "Primeiro nome".
+            </li>
+            <li>
+                <strong>maxlength:</strong> Esse recurso usado no campo  do formulário, obriga ao usuário a usar uma quatidade máxima de caracteres naquele campo. No exemplo de formulário acima há o recurso presente no campo "Primeiro nome", onde não pode digitar mais de 5 caracteres.
+            </li>
+            <li>
+                <strong>step:</strong> Esse recurso pode ser usado em um campo numerico do formulário, ele obriga ao usuário a aumentar a numeração de acordo com o intervalo exigido pelo programador. No exemplo de formulário acima há o recurso presente no campo "idade", onde o usuário do pode acrescentar números de 2 em 2.
+            </li>
+            <li>
+                <strong>Max e Min:</strong> são recursos usados em campos numericos para se exigir a coleta e um número máximo e mínimo. No campo idade não se aceita números menores quem 18 nem maiores que 100. Há também a opção de se usar o max e min no type data, para isso se usa a data no padrão internacional no código, ex. AAAA-MM-DD.
+            </li>
+            <li>
+                <strong>Hidden:</strong> É um campo do imput que não aparece para o usuário, no entanto levam informações para o banco de dados.
+            </li>
+        </ol>
+    </div>
+    <div class="div-mod-4">
+        <h1 class="titulo-mod-4">Módulo 4: Características do CSS</h1>
+        <ol type="I">
+            <li><strong>Herança:</strong> É quando a propriedade de uma class é herdada por todas as tags existentes dentro daquela class, existem algumas propriedades que não são herdadas.</li> <br>
+            <li><strong>Especificidade:</strong> É o ato de especificar um elemento do html para o css, quanto mais específico melhor, uma class sempre terá prioridade em relação ao uma tag html (div etc.), o html aplica  estilo de cima para baixo.</li> <br>
+            <li><strong>Cascata:</strong> A ordem de leitura do navegador se dar da seguinte forma: primeiro ele ler o arquivo css, depois ler o arquivo principal, o index html de cima para baixo, assim, embora tenha um estilo para determinada tag ou class no documento css, se houver um outro estilo no html, esse tem prioridade na execução.</li> <br>
+            <li><strong>Unidade de medida absoluta:</strong> São unidades que não são alteradas de acordo com a estrutura que tem ao redor, não mudam de acordo com as especificações do dispositivo, ex. px, pt, in, cm, mm.</li> <br>
+            <li><strong>Unidade de medida relativa a fonte:</strong> Elas mudam de tamanho baseadas nos elementos da página.
+                    <ol type="a">
+                        <li><b>EM</b> o tamanho em é baseado no tamanho font-size do elemento pai. 1 em = 10 px.</li>
+                        <li><b>REM</b> Não se baseia no elemento pai, como o em, mas no primeiro elemento, no caso o elemento html, quando não se especifica o tamanho do html, os navegadores colocam por padrão o valor 16px.</li>
+                        <li><strong>Porcentagem:</strong> A porcentagem é relacionada ao tamanho do elemento pai. Não se usa muito para fontes, usa-se mais para estruturas.</li>
+                        <li><strong>EX:</strong> O ex acompanha o tamanho da letra "x" da fonte que ta sendo usada, se não tiver nenhuma fonte especificada, o navegador usa sua fonte padrão.</li>
+                        <li><strong>CH:</strong> O tamanho acompanha o espaço usado pela quantidade de caracteres do que estiver escrito, só funciona quando é usada uma fonte monospace(quando todos os caracteres tem o mesmo tamanho).</li>
+                        <li><strong>VIEWPORT:</strong> São unidades de medidas relativas ao espaço vizível ao usuário, relativo ao tamanho da tela, para usa-la pode-se usar dois elementos:
+                            <ol type="1">
+                                <li><strong>VH:</strong> Atualiza o elemento de acordo com a altura do elemento pai.</li>
+                                <li><strong>VW:</strong> Atualiza o elemento de acordo com a largura do elemento pai.</li>
+                                <li><strong>VMIN:</strong> Verifica qual o menor elemento do site, se é altura ou largura e atualiza o elemento de acordo com ele.</li>
+                                <li><strong>VMAX:</strong> Verifica qual o maior elemento do site, se é altura ou largura e atualiza o elemento de acordo com ele.</li>
+                            </ol>
+                        </li>
+                    </ol>
+            </li>
+            <li><strong>Inherit:</strong> Valor usado para forçar uma herança, normalmentes são usados para tamanhos de fontes e cores.</li> <br>
+        </ol>
+    </div>
+    <div class="mod-5">
+        <h1 class="titulo-mod-5">Módulo 5: Responsividade:</h1>
+        <ol type="I">
+            <li>
+                <strong>Mobile firsh:</strong> Na tradução livre é o celular primeiro. Os sites se adequarão ao tamanho da tela que o usuário estar usando, assim se cria o site baseado primeiramente para o celular e após isso adapta para telas maiores. No entanto hoje em dia se estar agindo de forma meio que contrária, pois cria-se o site baseado na tela maior acompanhando o mesmo para telas menores.
+            </li> <br>
+            <li>
+                <strong>Layout normal x layout adaptativo x layout responsivo:</strong>
+                    <ol type="a">
+                        <li>Layout normal: O site não se adapta para outros tamanhos de tela, qundo se abre em uma tela menor, o navegador cria uma barra de rolagem para percorrer o retante do site que não aparece  na tela.</li>
+                        <li>Layout responsivo: O site é criado de uma forma que o tamanho do mesmo va se adptando ao tamanho do site vá gradualmente se moldando ao tamanho da tela.</li>
+                        <li>Layout adaptativo: O site é criado de forma que o mesmo se adapte ao tamanho da tela através de tamanhos pre-estabelecidos para determinada tela. Os tamanhos mais usados no adaptativo são: 320, 480, 760, 960, 1200 e 1600.<li>
+                    </ol>
+                Normalmente se usa mais uma junção do layout responsivo com o adaptativo.
+            </li> <br>
+            <li>
+                <strong>Viewport:</strong>É uma função que se usa no head que faz a largura do site se adaptar ao tamanho da tela do usuário. o  código é o a seguir: <br> < meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+            </li> <br>
+            <li>
+                <ol type="a"> <strong>Imagens responsivas</strong> <br>
+                    <li>
+                        Picture e source: Possibilita usar diferentes imagens de acordo com o tamanho da tela; <br>
+                    Ex. <br> <br>
+                    <picture>
+                        <source media="(min-width:500px)" srcset="./src/imagens/Imagem gc-adois.jpg" />
+                        <img src="./src/imagens/Imagem gc amor.jpg" alt="Imagem do gc amor" width="200px" height="200px">
+                    </picture>
+                    <br> <br> Obs: Por algum motivo o código source não funcionou nessa imagem. O mesmo deveria carregar a primeira imagem e a medida que diminuisse o tamanho da tela para uma determinada largura, uma outra imagem pre-estabelecida fosse carregada no lugar dela, Normalmente com tamanho adequado aquele tamanho de tela.
+                    </li> <br>
+                    <li>Propriedade object-fit: A proprieda trabalha diretamente na proporção em que é mostrada a imagem dentro do espaço destinado aquela imagem.
+                        <ol type="i">
+                            <li>fill: opção padrão onde a imagem éredimencionada de forma a caber na área disponivel destinada a ela, idependente se pra isso seja necessário distorcer a imagem ou algo do tipo. <br> <br>
+                            Ex. A área da imagem estar configurada em 400x400 <br> <img src="./src/imagens/paisagem.jpg" alt="Paisagem" class="ex-fill">
+                            </li> <br>
+                            <li>contain: ele mantem a imagem na proporção real dela, no entanto diminui a imagem para caber dentro do espaço disponível. <br> <br>
+
+                            Ex. A área da imagem estar configurada em 400x400 <br> <img src="./src/imagens/paisagem.jpg" alt="Paisagem" class="ex-contain">
+                            </li> <br>
+                            <li>cover: UM dos mais utilizados, ele corta a imagem mantendoa proporção fazendo com que ela preencha todo espaço disponivel, corta mantendo o centro da imagem. <br> <br>
+                                Ex. A área da imagem estar configurada em 400x400 <br> <img src="./src/imagens/paisagem.jpg" alt="Paisagem" class="ex-cover">
+                            </li> <br>
+                            <li>none: Cortar a imagem cabendo dentro da área, sem se preocupar com o redicionamento. <br> <br>
+                                Ex. A área da imagem estar configurada em 400x400 <br> <img src="./src/imagens/paisagem.jpg" alt="Paisagem" class="ex-none">
+                            </li> <br>
+                            <li>scale-down: Bem parecida ao contain, apenas diminui proporcionalmente a qualidade da imagem. <br> <br>
+                                Ex. A área da imagem estar configurada em 400x400 <br> <img src="./src/imagens/paisagem.jpg" alt="Paisagem" class="ex-scale-down">
+                            </li> <br>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li><strong>@media (css):</strong> É basicamente um css dentro do outro css aplicado quando se atinge determinadas condições estabelecidas de responsividade, é o recurso mais utilizado para responsividade de sites. Através do @media se pode aplicar características específicas para diversas situações, exemplo: o <code>@media only print</code>, aplica condições para impressão, o <code>@media only scren</code> aplica condições apenas para tela, sem aparecer na impressão. Quando não se usa uma condição e se deseja aplicar algo a tudo, se utiliza o <code>@media all</code>.
+            <ol type="a">
+                <li><u>Orientation no @media:</u> A propriedade orientation em @media aplica determinada características no site de acordo com a orientação que estiver a tela (retrato ou paisagem), o navegador se baseia nas dimenções de largura e altura para determinar se a tela estar no modo retrato ou paisagem, o comando <code>@media(orientation: landscape)</code> aplica a característica para quando a tela tiver no modo paisagem, já o comando <code>@media (orientation:portrait)</code> aplica a característica para quando a tela estiver em modo retrato.</li> <br>
+                <li><u>Aspect-ratio no @media:</u>Não sei explicar direito, mas é basicamente outro condicionador de responsividade, que altera determinada características da propriedade de acordo com regras pre-definidas. O código é <code>@media (aspect-ratio: 1/1){aplicação}</code> no caso desse exemplo, ele aplica a característica quando a proporção da tela atingi 1 para altura e 1 para largura, essa proporção pode ser alterada, bem como pode ser usada um <code>@media (min-aspect-radio: 2/1)</code> por exemplo ou ainda um <code>@media (max-aspect-ratio: x/x).</code></li>
+            </ol>
+            </li>
+            <li><strong>Função <code>var:</code></strong> É usada para se criar uma variável em css para determinado atributo, ex. uma cor específica para ser usada em diversos elementos. A vantagem é que, caso se deseje alterar a cor de diversos elementos, não se precisa alterar manualmente de um por um, basta criar uma variável cor para todos os elementos e ai pode se mexer apenas na cor da variável que os elementos todos mudam automaticamente <br> <br>
+            <ul style="list-style: square;">
+                <li> Criar a variável:
+                    <ul style="list-style: circle;">
+                        <li>No topo do documento se cria da seguinte forma, para que possa ser usada em todo o documento: <code>:root{--nome da variável:valor da variável;}</code> <br> Ex.<code>:root{ <br>--bg-color: black; <br> }</code></li> <br>
+                        <li>Em uma div específica para usar os valores nos elementos daquela determinada div: <code> --nome da variável:valor da variável;</code> <br> Ex.<code> .nome da div{ <br> --Azul: blue; <br> }</code></li>
+                    </ul>
+                </li> <br>
+                <li>Usar as variáveis criadas:
+                    <ul style="list-style: circle;">
+                    <li>Em um elemento que se deseje usar a variável criada no topo, se usa o códogo da seguinte maneira: <code>var(--nome da variável);</code> <br> Ex. <code>background-color: var(--bg-color);</code></li> <br>
+                    <li>Para usar as variáveis locais (criadas e usadas dentro de uma mesma div): Basta colocar o elemento seguido do termo var e o nome da variável entre parênteses. <br> Ex. <code>color: var(--azul);</code></li>
+                    </ul>
+                </li>
+            </ul> <br>
+            <p>Obs: para fins de  uma melhor organização, se costuma usar a variável no root, no topo do documento css.</p>
+            <p>Existe a opção de colocar um atributo ou uma outra variavel após uma que estar sendo usada para caso ela não funcione, a outra funcionar, veja exemplo abaixo: <br> <code>background-color: var(--bg-color, outra variável ou outra cor);</code></p>
+
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
