@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../src/imagens/estudo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+h1{
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 5px;
+    width: 90vw;
+    text-align: center;
+}
+.estrutura-basica{
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 5px;
+    width: 90vw;
+    margin-top: 5px;
+}
+
+.estrutura-basica h3{
+    text-align: center;
+}
