@@ -17,21 +17,21 @@
     </div>
 
     <div class="botoes-paginas">
-        <li>
-            <a href="./paginas/html.html" target="_blank" class="botao-html">HTML</a>
-        </li>
-        <li>
-            <a href="./paginas/css.html" target="_blank" class="botao-css">CSS</a>
-        </li>
-        <li>
-            <a href="./paginas/Javascript.html" target="_blank" class="botao-js">Java Script</a>
-        </li>
-        <li>
-            <a href="./paginas/git-github.html" target="_blank" class="botao-git">Git e Github</a>
-        </li>
-        <li>
-            <a href="./paginas/Banco-dados.html" target="_blank" class="botao-banco-dados">Banco de dados</a>
-        </li>
+            <li>
+                <a href="./paginas/html.html" target="_blank" class="botao-html">HTML</a>
+            </li>
+            <li>
+                <a href="./paginas/css.html" target="_blank" class="botao-css">CSS</a>
+            </li>
+            <li>
+                <a href="./paginas/Javascript.html" target="_blank" class="botao-js">Java Script</a>
+            </li>
+            <li>
+                <a href="./paginas/git-github.html" target="_blank" class="botao-git">Git e Github</a>
+            </li>
+            <li>
+                <a href="./paginas/Banco-dados.html" target="_blank" class="botao-banco-dados">Banco de dados</a>
+            </li>
     </div>
 
     <div class="corpo">
@@ -84,245 +84,6 @@
                 </tr>
             </tbody>
         </table>
-    </div>
-
-    <div class="formulario">
-        <h2 class="formulario-titulo">Atributos de Formulários</h2>
-        <ol type="1">
-            <li><strong>form</strong> - Cria-se p formulário</li>
-            <li><strong>action</strong> - Usa-se para informar quais os destinos das informações inceridas no formulário pelo usuário</li>
-            <li><strong>method</strong> - É o método de envio das informações que são divididos nos dois atributos abaixo</li>
-            <li><strong>get</strong> - Pega as informações do formulário e mostra na barra de navegação da página informada no method</li>
-            <li><strong>post</strong> - Envia as informações internamente, sem mostrar as mesmas na url. Exemplo de uso: senhas</li>
-            <li><strong><u>imput</u></strong>(tag mais importante dos formulário) - Serve para pegar dados do usuário. É importante adicionar o atributo name nos campos de formulários.
-                <ol type="a">
-                    <li>
-                        text - campo para digitar textos
-                        Ex.
-                        <form action="./paginas/pagina-teste.html" method="get">
-                            <input type="text" name="Usuário" value="Jardel" />
-                            <input type="submit" value="Enviar" />
-                        </form>
-                    </li>
-                    <li>
-                        value = prestabelece um valor para os campos de inputs. Ex. nos campos dos outros atributos. <br>
-                    </li>
-                    <li>
-                        passoword - campo para digitar senhas (não aparece o conteúdo digitado)
-                            Ex.
-                            <form action="./paginas/pagina-teste.html" method="post">
-                                <input type="password" />
-                            </form>
-                    </li>
-                    <li>
-                        checkbox - campo para para marcar e desmarcar.
-                            <form action="./paginas/pagina-teste.html" method="post">
-                                Ex. <input type="checkbox" />
-                            </form>
-                    </li>
-                    <li>
-                        radio - campo para marcar caixa de seleção, só pode ser usado em grupo
-                            Ex.
-                            <form action="./paginas/pagina-teste.html" method="post">
-                                <input type="radio" name="sexo" />
-                                Masculino <br>
-                                <input type="radio" name="sexo" />
-                                Feminino <br>
-                                <input type="radio" name="sexo" />
-                                Prefiro não responder
-                            </form>
-                    </li>
-                    <li>
-                        submit - Botão para enviar o formulário
-                            Ex.
-                            <form action="./paginas/pagina-teste.html" method="post">
-                                <input type="submit" />
-                            </form>
-                    </li>
-                    <li>
-                        e-mail - Campo semelhante a text, no entanto só aceita textos nos formatos de email
-                            Ex.
-                            <form action="./paginas/pagina-teste.html" method="post">
-                                <input type="email" />
-                            </form>
-                    </li>
-                    <li>
-                        color - Abre uma palheta de cor no navegador para o usuário escolher.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="color">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        date - Abre um campo com datas para escolha do usuário.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="date">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        datetime-local - Abre um campo com datas e hora para escolha do usuário.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="datetime-local">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        month - Abre um campo para se colocar mês e ano.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="month">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        number - Abre um campo que só aceitar receber números.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="number">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        range - Abre uma barra com uma bolinhas para regular.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="range">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        search - Apenas uma variação do text.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="search">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        tel - Recebe números de telefones.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="tel">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        time - Abre um campo com horas para escolha do usuário.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="time">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        url - Recebe uma url.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="url">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        week - Recebe uma semana X do ano X.
-                                <form action="./paginas/pagina-teste.html" method="get">
-                                    <input type="week">
-                                    <input type="submit">
-                                </form>
-                    </li>
-                    <li>
-                        Select - O select cria uma caixa que abre várias opções para escolher do usuário conforme exemplo abaixo. Dentro select se usa a tag option para definir as opções que virão dentro da caixa, na tag option ainda pode se usar o atributo value para se definir um valor para aquela opção da caixa. Há ainda o atributo selected que se usa dentro do option para se mostrar aquela opção inicialmente na caixa, caso não seja usado esse atributo, aparecerá a primeira opção do option. Algumas situações, os programadores colocam um option em branco, assim a caixa fica vazia inicialmente sem mostrar nenhuma opção. Para se transformar o select em multipla escolha se usa dois atributos dentro do select: size com o número de atributos que se pode ser escolhido e o atributo multiple.
-                        <form action="/paginas/pagina-teste.html" method="get">
-                            <select name="ordenacao" size="2" multiple>
-                                <option></option>
-                                <option value="1">Brasil</option>
-                                <option value="2">Portugal</option>
-                                <option value="3">Dubai</option>
-                            </select>
-                            <input type="submit">
-                        </form>
-                    </li>
-                    <li>
-                        textarea - Esse recurso dos formulários criam uma caixa para texto grande, para o mesmo existem os atributos "name" para se nomear aquela caixa, os atributos "cols" e "rows" para se especificar as quantidades de linhas e colunas que cabem no formulário, no entanto esses dois últimos não são mais usados devido a variação de interpretação de um navegador para outro. Ex. abaixo:
-
-                        <form action="./paginas/pagina-teste.html" method="get">
-                            <textarea name="nome-da-caixa"></textarea>
-                            <input type="submit">
-                        </form>
-                    </li>
-                    <li>
-                        button:Nada mais que um botão com um texto para enviar qualquer coisa, substitui o submit. <br>
-                        <form action="./paginas/pagina-teste.html" method="get">
-                            <button>Texto qualquer</button>
-                        </form>
-                    </li>
-                    <li>
-                        Input type file: É um input para o usuário enviar arquivos. Com uso do comando "accept", pode-se selecionar o tipo de arquivo exigido, ex. image/* para aceitar apenas imagens, application/pdf para exigir apenas PDF e etc. Sempre que for ser usado inputs files em formulários, deve-se usar no titulo do formulário o atributo "enctype = multpart/form-date", esse atributo envia todo os arquivos em formas de bytes, caso não seja adiocionado, corre o risco de o servidor não receber o arquivo. <br>
-                        Foto
-                        <input type="file" name="photo" accept="image/*" />
-                    </li>
-                    
-                </ol>
-            </li>
-            <li>- <strong><u>label:</u></strong> O atributo label transforma todo o texto clicável, assim não se precisa clica precisamente dentro da caixa de texto ou dentro da checkbox, bastando clicar no texto. Ex. <br>
-                <form action="./paginas/pagina-teste.html" method="get">
-                    <label>
-                        <input type="checkbox">
-                        Clique nesse texto que a checkbox será marcada.
-                    </label>
-                    <br>
-                    <label>
-                        <input type="text">
-                        Clique nesse texto para escrever na caixa de texto.
-                    </label>
-                </form>
-            </li> <br>
-            <li> - <strong><u>Fieldset e Legend</u></strong> - As tags fieldset e legend, respectivamente separam um formulário do outro item por campo, e dão legenda a cada campo. Exemplo do formulário abaixo: <br>
-                <form action="./paginas/pagina-teste.html" method="get">
-                    <fieldset>
-                        <legend>Dados Pessoais:</legend>
-                        <label>
-                            Primeiro nome <br>
-                            <input type="text" name="nome" required minlength="2" maxlength="5" />
-                        </label> <br>
-                        <label>
-                            Sobrenome <br>
-                            <input type="text" name="sobrenome" />
-                        </label> <br>
-                        <label>
-                            Idade <br>
-                            <input type="number" name="idade" step="2" max="100" min="18" />
-                        </label> <br>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Dados profissionais:</legend>
-                        <label>
-                            Nome da empresa <br>
-                            <input type="text" name="nome-empresa" />
-                        </label> <br>   
-                        <label>
-                            Cargo <br>
-                            <input type="text" name="cargo" />
-                        </label> <br>
-                    </fieldset>
-                    <input type="submit" value="Cadastrar">
-                </form> <br>
-            </li>
-            <li>
-                <strong>Validações nativas:</strong> São validações feitas nos formulários para se cetificar que o usuário vai responder aos campos de acodo com o pedido pelo mesmo. Existem as validações que podem feitas através do JS, no entanto essa que vamos aprender chama-se nativas por que usam recursos do navegador.
-            </li>
-            <li>
-                <strong>Required:</strong> Esse recurso usado no campo  do formulário, obriga ao usuário a preencher aquele campo antes de enviar o formulário. No exemplo de formulário acima há o recurso presente no campo "Primeiro nome".
-            </li>
-            <li>
-                <strong>minlength:</strong> Esse recurso usado no campo  do formulário, obriga ao usuário a usar uma quatidade mínima de caracteres naquele campo. No exemplo de formulário acima há o recurso presente no campo "Primeiro nome".
-            </li>
-            <li>
-                <strong>maxlength:</strong> Esse recurso usado no campo  do formulário, obriga ao usuário a usar uma quatidade máxima de caracteres naquele campo. No exemplo de formulário acima há o recurso presente no campo "Primeiro nome", onde não pode digitar mais de 5 caracteres.
-            </li>
-            <li>
-                <strong>step:</strong> Esse recurso pode ser usado em um campo numerico do formulário, ele obriga ao usuário a aumentar a numeração de acordo com o intervalo exigido pelo programador. No exemplo de formulário acima há o recurso presente no campo "idade", onde o usuário do pode acrescentar números de 2 em 2.
-            </li>
-            <li>
-                <strong>Max e Min:</strong> são recursos usados em campos numericos para se exigir a coleta e um número máximo e mínimo. No campo idade não se aceita números menores quem 18 nem maiores que 100. Há também a opção de se usar o max e min no type data, para isso se usa a data no padrão internacional no código, ex. AAAA-MM-DD.
-            </li>
-            <li>
-                <strong>Hidden:</strong> É um campo do imput que não aparece para o usuário, no entanto levam informações para o banco de dados.
-            </li>
-        </ol>
     </div>
     <div class="div-mod-4">
         <h1 class="titulo-mod-4">Módulo 4: Características do CSS</h1>

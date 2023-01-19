@@ -149,34 +149,6 @@ tr:hover{
     margin-top: 30px;
 }
 
-.formulario{
-    width: 90vw;
-    background-color: aquamarine;
-    border: 5px solid black;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 5px;
-    padding: 30px;
-}
-
-.formulario-titulo{
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
-}
-
-fieldset {
-    background-color: ccc;
-    margin-bottom: 20px;
-    border: 5px solid blue;
-    padding: 10px;
-}
-
-legend {
-    background-color: blue;
-    color: #fff;
-    padding: 5px;
-}
-
 .div-mod-4{
     width: 90vw;
     background-color: aquamarine;
