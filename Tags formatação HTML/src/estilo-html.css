@@ -83,4 +83,15 @@ legend {
     padding: 5px;
 }
 /* Estilizacao da quarta div */
-.outras-tags
+.outras-tags{
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 30px;
+    width: 90vw;
+    margin-top: 5px;
+}
+/* Centralização do titulo da qaurta div */
+.outras-tags h3{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
