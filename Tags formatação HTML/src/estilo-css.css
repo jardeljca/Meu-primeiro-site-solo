@@ -29,6 +29,14 @@ body{
     padding: 5px;
     width: 90vw;
 }
+/* Estilização imagem do cabeçalho */
+.cabecalho img{
+    width: 40px;
+}
+/* hover da imagem do cabeçalho */
+.cabecalho img:hover{
+    width: 50px;
+}
 /* Estilização link para página principal */
 .cabecalho a{
     color: black;
