@@ -113,19 +113,3 @@ body{
     margin: 15px;
     border
 }
-/* Bordas radius*/
-.br-25{
-    background-color: red;
-    border-radius: 25%;
-    width: 100px;
-}
-.br-50{
-    background-color: red;
-    border-radius: 50%;
-    width: 100px;
-}
-.br-75{
-    background-color: red;
-    border-radius: 75%;
-    width: 100px;
-}
