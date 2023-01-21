@@ -47,6 +47,68 @@ body{
     background-color: aquamarine;
     border: 2px solid black;
     padding: 5px;
-    width: 90vw;
-    text-align: center;   
+    width: 90vw;  
+}
+/* Centralização do h3 da segunda div */
+.atributos-css h3{
+    text-align: center;
+}
+/* Conserto da ol */
+.atributos-css ol{
+    margin-left: 20px;
+}
+
+.estilo-borda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilização da borda solid */
+.b-s{
+    border: solid 2px;
+    width: 150px;
+    margin: 40px;
+}
+/* Estilização da borda dotted */
+.b-d{
+    border: dotted 2px;
+    width: 200px;
+    margin: 15px;
+}
+/* Estilização da borda dashed */
+.b-ds{
+    border: dashed 2px;
+    width: 200px;
+    margin: 15px;
+}
+/* Estilização da borda double */
+.b-double{
+    border: double;
+    width: 160px;
+    margin: 15px;
+}
+/* Estilização da borda groove */
+.b-groove{
+    border: groove;
+    width: 200px;
+    margin: 15px;
+}
+/* Estilização da borda ridge */
+.b-ridge{
+    border: ridge;
+    width: 200px;
+    margin: 15px;
+}
+/* Estilização da borda inset */
+.b-inset{
+    border: inset;
+    width: 220px;
+    margin: 15px;
+}
+/* Estilização da borda outset */
+.b-outset{
+    border: outset;
+    width: 220px;
+    margin: 15px;
 }
