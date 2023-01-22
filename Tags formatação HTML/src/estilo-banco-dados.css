@@ -29,10 +29,11 @@ body{
     padding: 5px;
     width: 90vw;
 }
-/* Estilização logo caeçalho */
+/* Estilização imagem do cabeçalho */
 .cabecalho img{
     height: 60px;
 }
+/* hover da imagem do cabeçalho */
 .cabecalho img:hover{
     height: 70px;
 }
@@ -47,24 +48,4 @@ body{
 /* Hover para link da página principal */
 .cabecalho a:hover{
     background-color: aquamarine;
-}
-/* Estilização da div dos links */
-.links{
-    font-family: 'Indie Flower', cursive;
-    background-color: aquamarine;
-    border: 2px solid black;
-    padding: 5px;
-    width: 90vw;
-}
-/* Centralização do h3 da div link */
-.links h3{
-    text-align: center;
-}
-/* Conserto da ol */
-.links ol{
-    margin-left: 20px;
-}
-a:hover{
-    font-size: 18px;
-    color: red;
 }

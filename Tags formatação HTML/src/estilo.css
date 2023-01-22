@@ -33,56 +33,42 @@ body{
     padding: 5px;
     list-style: none;
 }
-
+/* Estilização botão html */
 .botao-html img{
-    width: 50px;
+    height: 80px;
 }
-
 .botao-html img:hover{
-    width: 60px;
+    height: 100px;
 }
-
+/* Estilização botão css */
 .botao-css img{
-    width: 50px;
+    height: 80px;
 }
-
 .botao-css img:hover{
-    width: 60px;
+    height: 100px;
 }
-
-.botao-js:hover{
-    background-color: aqua;
+/* Estilização botão js */
+.botao-js img{
+    height: 80px;
 }
-
-.botao-git:hover{
-    background-color: aqua;
+.botao-js img:hover{
+    height: 100px;
 }
-
-.botao-banco-dados:hover{
-    background-color: aqua;
+/* Estilização botão github */
+.botao-git img{
+    height: 80px;
 }
-
-.botao-js{
-    background-color: aquamarine;
-    border: 3px solid black;
-    border-radius: 30px;
-    padding: 5px;
+.botao-git img:hover{
+    height: 100px;
 }
-
-.botao-git{
-    background-color: aquamarine;
-    border: 3px solid black;
-    border-radius: 30px;
-    padding: 5px;
+/* Estilização botão banco de dados */
+.botao-banco-dados img{
+    height: 80px;
 }
-
-.botao-banco-dados{
-    background-color: aquamarine;
-    border: 3px solid black;
-    border-radius: 30px;
-    padding: 5px;
+.botao-banco-dados img:hover{
+    height: 100px;
 }
-
+/* Estilização div corpo da página */
 .corpo{
     width: 90vw;
     background-color: aquamarine;

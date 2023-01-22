@@ -31,11 +31,11 @@ body{
 }
 /* Estilização imagem do cabeçalho */
 .cabecalho img{
-    width: 40px;
+    height: 60px;
 }
 /* hover da imagem do cabeçalho */
 .cabecalho img:hover{
-    width: 50px;
+    height: 70px;
 }
 /* Estilização link para página principal */
 .cabecalho a{
@@ -159,7 +159,7 @@ body{
 .ex-grad{
     width: 200px;
     height: 100px;
-    background: linear-gradient(green, yellow, blue, yellow, green);
+    background: linear-gradient(140deg, green, yellow, blue, yellow, green);
 }
 /* Estilização das sombras*/
 .sombra{
