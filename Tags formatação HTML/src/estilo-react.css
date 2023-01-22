@@ -1,0 +1,51 @@
+/* Reset de estilização da página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilização do body */
+body{
+    background-image: url(../src/imagens/estudo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 15px;
+}
+/* Estilização div cabeçalho */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 5px;
+    width: 90vw;
+}
+/* Estilização imagem do cabeçalho */
+.cabecalho img{
+    height: 60px;
+}
+/* hover da imagem do cabeçalho */
+.cabecalho img:hover{
+    height: 70px;
+}
+/* Estilização link para página principal */
+.cabecalho a{
+    color: black;
+    border: 2px black solid;
+    padding: 7px;
+    background-color: aqua;
+    border-radius: 2px 20px;
+}
+/* Hover para link da página principal */
+.cabecalho a:hover{
+    background-color: aquamarine;
+}
