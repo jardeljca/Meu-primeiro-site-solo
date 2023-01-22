@@ -1,3 +1,8 @@
+/* Função para definir cor do site */
+:root{
+    --CorSite: aqua;
+}
+/* Estilização do body */
 body{
     background-image: url(../src/imagens/estudo.png);
     background-repeat: no-repeat;
@@ -10,7 +15,7 @@ body{
 }
 
 .cabecalho{
-    background-color: aqua;
+    background-color: var(--CorSite);
     width: 90vw;
     border: 5px solid black;
     padding: 10px;
@@ -153,7 +158,7 @@ tr:hover{
 
 .mod-5{
     width: 90vw;
-    background-color: aquamarine;
+    background-color: red;
     border: 5px solid black;
     font-size: 20px;
     margin-top: 5px;
