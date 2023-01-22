@@ -119,5 +119,58 @@ body{
     border: outset;
     width: 220px;
     margin: 15px;
-    border
+}
+/* Estilização da div das bordas radius */
+.div-br{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* Estilização das bordas radius individualmente */
+.div-br .br-25{
+    margin: 10px;
+    border: solid 2px;
+    border-width: 5px;
+    border-radius: 25px;
+    width: 70px;
+    padding: 5px;
+
+/* Estilização das bordas radius individualmente */
+}
+.div-br .br-50{
+    margin: 10px;
+    border: solid 2px;
+    border-width: 5px;
+    border-radius: 50px;
+    width: 70px;
+    padding: 8px;
+
+/* Estilização das bordas radius individualmente */
+}
+.div-br .br-75{
+    margin: 10px;
+    border: solid 2px;
+    border-width: 5px;
+    border-radius: 50%;
+    width: 70px;
+    padding: 8px;
+}
+/* Estilização do exemplo de gradiente */
+.ex-grad{
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(green, yellow, blue, yellow, green);
+}
+/* Estilização das sombras*/
+.sombra{
+    border: solid 2px black;
+    width: 110px;
+    background-color: grey;
+    box-shadow: 10px 10px 5px black;
+    margin: 10px;
+}
+
+.sombra-text{
+    text-shadow: 10px 10px 5px black;
+    margin: 10px;
 }
