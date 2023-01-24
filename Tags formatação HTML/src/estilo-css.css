@@ -169,8 +169,10 @@ body{
     box-shadow: 10px 10px 5px black;
     margin: 10px;
 }
-
+/* Estilização texto sombra */
 .sombra-text{
     text-shadow: 10px 10px 5px black;
     margin: 10px;
 }
+/* Estilizacao do elemento transicao */
+.elemento-transicao
