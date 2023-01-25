@@ -47,6 +47,9 @@
         <li><strong>Article:</strong> Diz para o motor de busca ou para o scaner que ali tem um conteúdo importante ou principal daquele site.</li> <br>
         <li><strong>Aside:</strong> É o contrário do article, o conteúdo é interpretado com conteúdo secundário ou menos importante do site.</li> <br>
         <li><strong>Time:</strong> O navegador entende como um conteúdo relacionado a data, nele pode-se usar o atributo datetime para informar qual data é aquela.</li> <br>
+        <li><strong>main:</strong> É a tag principal de um site, só pode ter uma por site.</li><br>
+        <li><strong>address:</strong> É usada para se colocar um endereço dentro dela, ou e-mail, ou teefone, qualquer tipo de contato. Normalmente se usa dentro do rodapé (footer)</li> <br>
+        <li><strong>Figure e figcaption:</strong> Usa-se as tags quando se deseja colocar uma foto com uma legenda dentro, a primeira tag usa-se para a foto e a segunda para a legenda.</li><br>
     </ol>
     <h4>Todas as tags acima não apresentam nenhuma função vizual no site, elas servem para causar efeitos no buscador ou navegador ou motor de buscas etc. As mesmas são úteis para aplicar formatações no css usando-as sem que seja preciso criar class ou ids para aquele conteúdo.</h4>
 </div>
@@ -298,7 +301,7 @@
         <li>
             <strong>Autofocus:</strong> Serve para que, ao entrar numa página, o cursor já esteja piscando no campo para digitação. Basta colocar o atributo autofocus no input.
             <form action="post">
-                <input type="text" name="usuario" placeholder="Usuário" autofocus>
+                <input type="text" name="usuario" placeholder="Usuário">
                 <input type="submit" value="enviar">
             </form>
         </li><br>
@@ -324,7 +327,9 @@
             <audio controls>
                 <source src="../src/Audio/calma-senhor-Calebynho.mp3" type="audio/mp3" />
             </audio>
-        </li>
+        </li><br>
+        <li>Tags de citação: As mesmas não tem nenhum efeito visual, mas servem para passar informações aos motores de buscas que ali tem uma tag de citção. As tags são < q>< /q> e < blockquote>< /blockquote>, dentro dessa segunda pode-se usar "cite" para informar um site de onde saiu aquela citação
+        .</li>
     </ol>
 </div>
 </body>
