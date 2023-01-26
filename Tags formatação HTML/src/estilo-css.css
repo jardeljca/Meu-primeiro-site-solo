@@ -188,5 +188,6 @@ body{
 .elemento-transicao:hover{
     width: 200px;
     background-color: blue;
+    left: 0;
     border-radius: 100px;
 }
