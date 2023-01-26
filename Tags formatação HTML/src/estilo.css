@@ -235,6 +235,7 @@ footer address ul img{
     width: 40px;
     margin: 5px;
     background-color: white;
+    transition: all 1s linear;
 }
 footer address ul img:hover{
     width: 50px;
