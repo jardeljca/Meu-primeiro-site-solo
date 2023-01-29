@@ -194,11 +194,9 @@ body{
 /* Estilização footer */
 footer{
     width: 90vw;
-    background-color: #19282e;
-    border: 2px solid black;
+    background-color: transparent;
     font-size: 20px;
     margin-top: 5px;
-    padding: 30px;
 }
 footer address ul{
     display: flex;
@@ -207,9 +205,11 @@ footer address ul{
 }
 footer address ul img{
     width: 40px;
-    margin: 5px;
+    margin: 10px;
+    margin-bottom: none;
     background-color: white;
     transition: all 1s linear;
+    box-shadow: 10px 10px 5px black;
 }
 footer address ul img:hover{
     width: 50px;
@@ -218,5 +218,7 @@ footer div{
     color: white;
     text-align: center;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 1px black;
 }
