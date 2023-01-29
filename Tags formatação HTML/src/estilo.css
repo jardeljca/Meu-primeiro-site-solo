@@ -1,6 +1,6 @@
 /* Função para definir cor do site */
 :root{
-    --CorSite: aqua;
+    --CorSite: rgb(30, 179, 92);
 }
 /* Estilização do body */
 body{
