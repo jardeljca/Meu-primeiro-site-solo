@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anotações-sobre-HTML</title>
 
-    <link rel="stylesheet" href="../src/estilo-html.css">
+    <link rel="stylesheet" href="../css/estilo-html.css">
+    <link rel="stylesheet" href="../css/reset.css">
 </head>
 <body>
     <!-- Div cabeçalho -->
     <div class="cabecalho">
-        <img src="../src/imagens/logo-html.png" alt="logo html">
+        <img src="../imagens/logo-html.png" alt="logo html">
         <header>
             <h1 class="titulo-html">Anotações-sobre-HTML</h1>
         </header>
@@ -68,7 +69,7 @@
                 <li>
                     text - campo para digitar textos
                     Ex.
-                    <form action="./paginas/pagina-teste.html" method="get">
+                    <form action="../paginas/pagina-teste.html" method="get">
                         <input type="text" name="Usuário" value="Jardel" />
                         <input type="submit" value="Enviar" />
                     </form>
@@ -79,20 +80,20 @@
                 <li>
                     passoword - campo para digitar senhas (não aparece o conteúdo digitado)
                         Ex.
-                        <form action="./paginas/pagina-teste.html" method="post">
+                        <form action="../paginas/pagina-teste.html" method="post">
                             <input type="password" />
                         </form>
                 </li><br>
                 <li>
                     checkbox - campo para para marcar e desmarcar.
-                        <form action="./paginas/pagina-teste.html" method="post">
+                        <form action="../paginas/pagina-teste.html" method="post">
                             Ex. <input type="checkbox" />
                         </form>
                 </li><br>
                 <li>
                     radio - campo para marcar caixa de seleção, só pode ser usado em grupo
                         Ex.
-                        <form action="./paginas/pagina-teste.html" method="post">
+                        <form action="../paginas/pagina-teste.html" method="post">
                             <input type="radio" name="sexo" />
                             Masculino <br>
                             <input type="radio" name="sexo" />
@@ -104,97 +105,97 @@
                 <li>
                     submit - Botão para enviar o formulário
                         Ex.
-                        <form action="./paginas/pagina-teste.html" method="post">
+                        <form action="../paginas/pagina-teste.html" method="post">
                             <input type="submit" />
                         </form>
                 </li><br>
                 <li>
                     e-mail - Campo semelhante a text, no entanto só aceita textos nos formatos de email
                         Ex.
-                        <form action="./paginas/pagina-teste.html" method="post">
+                        <form action="../paginas/pagina-teste.html" method="post">
                             <input type="email" />
                         </form>
                 </li><br>
                 <li>
                     color - Abre uma palheta de cor no navegador para o usuário escolher.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="color">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     date - Abre um campo com datas para escolha do usuário.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="date">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     datetime-local - Abre um campo com datas e hora para escolha do usuário.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="datetime-local">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     month - Abre um campo para se colocar mês e ano.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="month">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     number - Abre um campo que só aceitar receber números.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="number">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     range - Abre uma barra com uma bolinhas para regular.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="range">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     search - Apenas uma variação do text.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="search">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     tel - Recebe números de telefones.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="tel">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     time - Abre um campo com horas para escolha do usuário.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="time">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     url - Recebe uma url.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="url">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     week - Recebe uma semana X do ano X.
-                            <form action="./paginas/pagina-teste.html" method="get">
+                            <form action="../paginas/pagina-teste.html" method="get">
                                 <input type="week">
                                 <input type="submit">
                             </form>
                 </li><br>
                 <li>
                     Select - O select cria uma caixa que abre várias opções para escolher do usuário conforme exemplo abaixo. Dentro select se usa a tag option para definir as opções que virão dentro da caixa, na tag option ainda pode se usar o atributo value para se definir um valor para aquela opção da caixa. Há ainda o atributo selected que se usa dentro do option para se mostrar aquela opção inicialmente na caixa, caso não seja usado esse atributo, aparecerá a primeira opção do option. Algumas situações, os programadores colocam um option em branco, assim a caixa fica vazia inicialmente sem mostrar nenhuma opção. Para se transformar o select em multipla escolha se usa dois atributos dentro do select: size com o número de atributos que se pode ser escolhido e o atributo multiple.
-                    <form action="/paginas/pagina-teste.html" method="get">
+                    <form action="../paginas/pagina-teste.html" method="get">
                         <select name="ordenacao" size="2" multiple>
                             <option></option>
                             <option value="1">Brasil</option>
@@ -207,14 +208,14 @@
                 <li>
                     textarea - Esse recurso dos formulários criam uma caixa para texto grande, para o mesmo existem os atributos "name" para se nomear aquela caixa, os atributos "cols" e "rows" para se especificar as quantidades de linhas e colunas que cabem no formulário, no entanto esses dois últimos não são mais usados devido a variação de interpretação de um navegador para outro. Ex. abaixo:
 
-                    <form action="./paginas/pagina-teste.html" method="get">
+                    <form action="../paginas/pagina-teste.html" method="get">
                         <textarea name="nome-da-caixa"></textarea>
                         <input type="submit">
                     </form>
                 </li><br>
                 <li>
                     button:Nada mais que um botão com um texto para enviar qualquer coisa, substitui o submit. <br>
-                    <form action="./paginas/pagina-teste.html" method="get">
+                    <form action="../paginas/pagina-teste.html" method="get">
                         <button>Texto qualquer</button>
                     </form>
                 </li><br>
@@ -227,7 +228,7 @@
             </ol>
         </li><br>
         <li>- <strong><u>label:</u></strong> O atributo label transforma todo o texto clicável, assim não se precisa clica precisamente dentro da caixa de texto ou dentro da checkbox, bastando clicar no texto. Ex. <br>
-            <form action="./paginas/pagina-teste.html" method="get">
+            <form action="../paginas/pagina-teste.html" method="get">
                 <label>
                     <input type="checkbox">
                     Clique nesse texto que a checkbox será marcada.
@@ -240,7 +241,7 @@
             </form>
         </li> <br>
         <li> - <strong><u>Fieldset e Legend</u></strong> - As tags fieldset e legend, respectivamente separam um formulário do outro item por campo, e dão legenda a cada campo. Exemplo do formulário abaixo: <br>
-            <form action="./paginas/pagina-teste.html" method="get">
+            <form action="../paginas/pagina-teste.html" method="get">
                 <fieldset>
                     <legend>Dados Pessoais:</legend>
                     <label>
@@ -317,15 +318,15 @@
     <ol>
         <li><strong>Tag de vídeo:</strong> a tag video permite colocar vídeo no site, deve ser especificado na tag a altura e largura do vídeo, dentro da tag usa-se o atributo source onde se coloca o endereço do vídeo no src e tipo do arquivo do vídeo no type. Para que o vídeo funcione corretamente se usam ainda dois atributos, o autoplay que az o vídeo rodar assim que o usuário entrar na página e o controls para mostrar os controles do vídeo. <br> <br>
             <video width="180px" height="280px" controls>
-                <source src="../src/video/Calebynho.mp4" type="video/mp4" />
+                <source src="../video/Calebynho.mp4" type="video/mp4" />
             </video>
             <video width="180px" height="260px" controls>
-                <source src="..//src/video/Calebynho-2.mp4" type="video/mp4" />
+                <source src="../video/Calebynho-2.mp4" type="video/mp4" />
             </video>
         </li> <br> <br>
         <li><strong>Tag de áudio:</strong> a tag audio permite colocar audio no site, dentro da tag usa-se o atributo source onde se coloca o endereço do audio no src e tipo do arquivo do audio no type. Para que o audio funcione corretamente se usam ainda alguns atributos, o autoplay que faz o audio rodar assim que o usuário entrar na página, o controls para mostrar os controles do audio, o muted que faz com que o audio esteja mudo dando a opção ao usuário de ativar o som ou não e o preload que faz com a barra de caregamento do audio inicie assim que o usuário entra na página, caso o mesmo tenha pproblemas de internet o áudio já estará carregado. <br> <br>
             <audio controls>
-                <source src="../src/Audio/calma-senhor-Calebynho.mp3" type="audio/mp3" />
+                <source src="../Audio/calma-senhor-Calebynho.mp3" type="audio/mp3" />
             </audio>
         </li><br>
         <li>Tags de citação: As mesmas não tem nenhum efeito visual, mas servem para passar informações aos motores de buscas que ali tem uma tag de citção. As tags são < q>< /q> e < blockquote>< /blockquote>, dentro dessa segunda pode-se usar "cite" para informar um site de onde saiu aquela citação
@@ -338,27 +339,27 @@
         <ul style="list-style: none;">
             <li>
                 <a href="https://wa.me/5585986078140" target="_blank">
-                    <img src="../src/imagens/icone-zap.png" alt="icone-zap">
+                    <img src="../imagens/icone-zap.png" alt="icone-zap">
                 </a>
             </li>
             <li>
                 <a href="https://github.com/jardeljca" target="_blank">
-                    <img src="../src/imagens/icone-github.png" alt="icone-github">
+                    <img src="../imagens/icone-github.png" alt="icone-github">
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/jardel-queiroz-b62166209/" target="_blank">
-                    <img src="../src/imagens/icone-likendin.png" alt="icone-likendin">
+                    <img src="../imagens/icone-likendin.png" alt="icone-likendin">
                 </a>
             </li>
             <li>
                 <a href="mailto:jardeljcadm@gmail.com" target="_blank">
-                    <img src="../src/imagens/icone-email.png" alt="icone-email">
+                    <img src="../imagens/icone-email.png" alt="icone-email">
                 </a>
             </li>
             <li>
                 <a href="https://instagram.com/jardeljca?igshid=ZDdkNTZiNTM=" target="_blank">
-                    <img src="../src/imagens/icone-insta.png" alt="icone-insta">
+                    <img src="../imagens/icone-insta.png" alt="icone-insta">
                 </a>
             </li>
         </ul>

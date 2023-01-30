@@ -4,7 +4,7 @@
 }
 /* Estilização do body */
 body{
-    background-image: url(../src/imagens/estudo.png);
+    background-image: url(../imagens/estudo.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
