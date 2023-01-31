@@ -1,6 +1,6 @@
 /* Função para definir cor do site */
 :root{
-    --CorSite: rgb(240, 21, 248);
+    --CorSite: rgba(141, 255, 10, 0.862);
 }
 /* Estilização do body */
 body{
@@ -41,9 +41,10 @@ body{
 /* Estilização botão html */
 .botao-html img{
     height: 80px;
+    transition: all 1s linear;
 }
 .botao-html img:hover{
-    height: 100px;
+    transform: rotate(360deg);
 }
 /* Estilização botão css */
 .botao-css img{
