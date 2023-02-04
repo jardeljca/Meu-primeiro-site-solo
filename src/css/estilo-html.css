@@ -4,11 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Estilização do body */
-body{
+.img-body{
     background-image: url(../imagens/estudo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    
+}
+/* Estilização do body */
+body{
     padding: 10px;
     display: flex;
     flex-direction: column;
