@@ -1,17 +1,20 @@
 /* Função para definir cor do site */
 :root{
-    --CorSite: rgba(40, 216, 195, 0.862);
+    --CorSite: rgba(250, 188, 43, 0.8);
 }
 /* Estilização do body */
 body{
-    background-image: url(../imagens/estudo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.body-img{
+    background-image: url(../imagens/estudo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 /* Estilização do cabeçalho */
 .cabecalho{

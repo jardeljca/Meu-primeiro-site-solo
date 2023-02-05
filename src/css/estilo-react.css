@@ -1,3 +1,7 @@
+/* Função para definir cor do site */
+:root{
+    --CorSite: rgba(12, 245, 179, 0.7);
+}
 /* Reset de estilização da página */
 *{
     margin: 0;
@@ -17,6 +21,12 @@ body{
     margin: 0px;
     font-size: 15px;
 }
+.body-img{
+    background-image: url(../imagens/estudo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* Estilização div cabeçalho */
 .cabecalho{
     display: flex;
@@ -24,7 +34,7 @@ body{
     justify-content: space-around;
     align-items: center;
     font-family: 'Indie Flower', cursive;
-    background-color: aquamarine;
+    background-color: var(--CorSite);
     border: 2px solid black;
     padding: 5px;
     width: 90vw;

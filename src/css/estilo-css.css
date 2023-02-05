@@ -1,7 +1,7 @@
-/* Função para definir cor do site */
-:root{
-    --CorSite: rgba(12, 245, 179, 0.7);
-}
+    /* Função para definir cor do site */
+    :root{
+        --CorSite: rgba(12, 245, 179, 0.7);
+    }
 /* Reset de estilização da página */
 *{
     margin: 0;
