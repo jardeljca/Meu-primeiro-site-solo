@@ -20,6 +20,7 @@ body{
 .cabecalho{
     background-color: var(--CorSite);
     width: 90vw;
+    height: 80px;
     border: 5px solid black;
     padding: 10px;
 }
@@ -83,157 +84,23 @@ body{
 .botao-banco-dados img:hover{
     height: 100px;
 }
-/* Estilização div corpo da página */
-.corpo{
+.tam-site{
+    height: 50vh;
     width: 90vw;
-    background-color: var(--CorSite);
-    border: 5px solid black;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 5px;
-    font-family: Arial;
-    text-transform: uppercase;
-    line-height: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.titulo-tabela{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
-
-.div-tabela{
-    background-color: var(--CorSite);
-    width: 90vw;
-    border: 10px;
-    border: 5px solid black;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 5px;
-    padding: 30px;
-}
-
-table{
-    width: 100%;
-}
-
-th, td{
-    text-align: center;
-    padding: 5px;
-}
-
-td{
-    border-bottom: 2px solid black;
-}
-tr:hover{
-    background-color: #eee;
-}
-
-.col-1{
-    text-transform: uppercase;
-    background-color: var(--CorSite);
-    border: 1px solid black;
-    font-family: 'Indie Flower';
-    font-weight: bold;
-}
-
-.div-tabela h3{
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    margin-top: 30px;
-}
-
-.div-mod-4{
-    width: 90vw;
-    background-color: var(--CorSite);
-    border: 5px solid black;
-    font-size: 20px;
-    padding: 10px;
-    margin-top: 5px;
-    padding: 30px;
-}
-
-.div-mod-4 ol{
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    line-height: 20px;
-}
-
-.titulo-mod-4{
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
-}
-
-.mod-5{
-    width: 90vw;
-    background-color: var(--CorSite);
-    border: 5px solid black;
-    font-size: 20px;
-    margin-top: 5px;
-    padding: 30px;   
-}
-
-.mod-5 ol{
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    line-height: 20px;
-}
-
-.titulo-mod-5{
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
-}
-
-.ex-fill{
-    background-color: rgb(113, 113, 247);
-    width: 200px;
-    height:200px;
-    object-fit: fill;    
-}
-
-.ex-contain{
-    background-color: rgb(113, 113, 247);
-    width: 200px;
-    height:200px;
-    object-fit: contain;
-}
-
-.ex-cover{
-    background-color: rgb(113, 113, 247);
-    width: 200px;
-    height:200px;
-    object-fit: cover;
-}
-
-.ex-none{
-    background-color: rgb(113, 113, 247);
-    width: 200px;
-    height:200px;
-    object-fit: none;
-}
-
-.ex-scale-down{
-    background-color: rgb(113, 113, 247);
-    width: 200px;
-    height:200px;
-    object-fit: scale-down
 }
 /* Estilização footer */
 footer{
     width: 90vw;
-    background-color: transparent;
+    height: 20px;
     font-size: 20px;
     margin-top: 5px;
 }
-footer address ul{
+footer ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-footer address ul img{
+footer img{
     width: 40px;
     margin: 10px;
     margin-bottom: none;
@@ -241,7 +108,7 @@ footer address ul img{
     transition: all 1s linear;
     box-shadow: 10px 10px 5px black;
 }
-footer address ul img:hover{
+footer img:hover{
     width: 50px;
 }
 footer div{
