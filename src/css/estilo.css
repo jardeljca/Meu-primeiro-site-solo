@@ -1,6 +1,6 @@
 /* Função para definir cor do site */
 :root{
-    --CorSite: rgba(250, 188, 43, 0.8);
+    --CorSite: rgba(58, 250, 0, 0.8);
 }
 /* Estilização do body */
 body{
