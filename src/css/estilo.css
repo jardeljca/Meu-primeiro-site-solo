@@ -42,51 +42,28 @@ body{
     padding: 5px;
     list-style: none;
 }
-/* Estilização botão html */
-.botao-html img{
+/* Estilizacao dos botoes */
+.botao-html img,
+.botao-css img,
+.botao-js img,
+.botao-react img,
+.botao-git img,
+.botao-banco-dados img{
     height: 80px;
     transition: all 1s linear;
 }
-.botao-html img:hover{
+.botao-html img:hover,
+.botao-css img:hover,
+.botao-js img:hover,
+.botao-react img:hover,
+.botao-git img:hover,
+.botao-banco-dados img:hover{
     transform: rotate(360deg);
 }
-/* Estilização botão css */
-.botao-css img{
-    height: 80px;
-}
-.botao-css img:hover{
-    height: 100px;
-}
-/* Estilização botão js */
-.botao-js img{
-    height: 80px;
-}
-.botao-js img:hover{
-    height: 100px;
-}
-.botao-react img{
-    height: 80px;
-}
-.botao-react img:hover{
-    height: 100px;
-}
-/* Estilização botão github */
-.botao-git img{
-    height: 80px;
-}
-.botao-git img:hover{
-    height: 100px;
-}
-/* Estilização botão banco de dados */
-.botao-banco-dados img{
-    height: 80px;
-}
-.botao-banco-dados img:hover{
-    height: 100px;
-}
-.tam-site{
-    height: 50vh;
-    width: 90vw;
+/* Estilizacao corpo do texto */
+.corpo{
+    display: flex;
+    justify-content: space-around;
 }
 /* Estilização footer */
 footer{
