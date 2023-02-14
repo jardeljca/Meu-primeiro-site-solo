@@ -79,17 +79,19 @@ body{
     width: auto;
     margin-right: 30px;
     border-radius: 40px;
+    opacity: 0.8;
 }
 .texto-desc{
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .corpo .nome{
     flex: 1;
-    display: flex;
-    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 10px;
     color: black;
     font-size: 50px;
     text-shadow: 5px 5px 10px white;
@@ -103,12 +105,17 @@ body{
 }
 .corpo h2{
     font-size: 40px;
+    font-family: 'Indie Flower', cursive;
     text-shadow: 5px 5px 10px white;
     margin-bottom: 20px;
 }
 .corpo p{
-    font-size: 25px;
+    font-size: auto;
     text-indent: 50px;
+    color: #fff;
+}
+.corpo a{
+    text-decoration: inherit;
     color: #fff;
 }
 /* Estilização footer */
