@@ -1,6 +1,6 @@
 /* Função para definir cor do site */
 :root{
-    --CorSite: rgba(58, 250, 0, 0.8);
+    --CorSite: rgba(103, 113, 100, 0.8);
 }
 /* Estilização do body */
 body{
@@ -11,7 +11,7 @@ body{
     align-items: center;
 }
 .body-img{
-    background-image: url(../imagens/estudo.png);
+    background-image: url(../imagens/carreira-programacao-expansao-profissional-ti.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -28,7 +28,7 @@ body{
 .cabecalho .texto-cabecalho{
     font-size: 40px;
     font-family: 'Indie Flower', cursive;
-    text-shadow: 1px 4px 4px #e4ce0a;
+    text-shadow: 1px 4px 4px #fff  ;
     text-align: center;
 }
 /* Estilização dos botões das páginas */
@@ -79,7 +79,7 @@ body{
     width: auto;
     margin-right: 30px;
     border-radius: 40px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .texto-desc{
     flex: 1;
@@ -121,7 +121,6 @@ body{
 /* Estilização footer */
 footer{
     width: 90vw;
-    height: 20px;
     font-size: 20px;
     margin-top: 5px;
 }
@@ -134,9 +133,10 @@ footer img{
     width: 40px;
     margin: 10px;
     margin-bottom: none;
-    background-color: white;
     transition: all 1s linear;
     box-shadow: 10px 10px 5px black;
+    border-radius: 20px;
+    background-color: #fff;
 }
 footer img:hover{
     width: 50px;
@@ -148,4 +148,9 @@ footer div{
     margin-top: 5px;
     margin-bottom: 5px;
     text-shadow: 2px 2px 1px black;
+}
+footer hr{
+    width: 40%;
+    display: block;
+    margin: auto;
 }
