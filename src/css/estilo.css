@@ -62,8 +62,54 @@ body{
 }
 /* Estilizacao corpo do texto */
 .corpo{
+    width: 90vw;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+.area-img{
+    flex: 1;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.corpo img{
+    height: 600px;
+    width: auto;
+    margin-right: 30px;
+    border-radius: 40px;
+}
+.texto-desc{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.corpo .nome{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px white;
+}
+.corpo .descricao{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.corpo h2{
+    font-size: 40px;
+    text-shadow: 5px 5px 10px white;
+    margin-bottom: 20px;
+}
+.corpo p{
+    font-size: 25px;
+    text-indent: 50px;
+    color: #fff;
 }
 /* Estilização footer */
 footer{
