@@ -1,5 +1,5 @@
 :root{
-    --CorSite: rgba(12, 245, 179, 0.7);
+    --CorSite: rgba(229, 162, 33, 0.7);
 }
 /* Reset de estilização da página */
 *{
@@ -34,8 +34,10 @@ body{
     border: 2px solid black;
     padding: 5px;
     width: 90vw;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
-/* Estilização logo caeçalho */
+/* Estilização logo cabeçalho */
 .cabecalho img{
     height: 60px;
 }
@@ -47,12 +49,39 @@ body{
     color: black;
     border: 2px black solid;
     padding: 7px;
-    background-color: aqua;
+    background-color: var(--CorSite);
     border-radius: 2px 20px;
 }
 /* Hover para link da página principal */
 .cabecalho a:hover{
     background-color: var(--CorSite);
+}
+/* Div curso guanabara */
+.curso-guanabara{
+    font-family: 'Indie Flower', cursive;
+    background-color: var(--CorSite);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90vw;
+    margin-bottom: 5px;
+}
+.cabecalho-guanabara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cabecalho-guanabara img{
+    width: 80px;
+}
+.curso-guanabara hr{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.curso-guanabara ul{
+    margin-left: 20px;
 }
 /* Estilização da div dos links */
 .links{
@@ -61,6 +90,8 @@ body{
     border: 2px solid black;
     padding: 5px;
     width: 90vw;
+    margin-bottom: 5px;
+    border-radius: 10px;
 }
 /* Centralização do h3 da div link */
 .links h3{
@@ -69,6 +100,9 @@ body{
 /* Conserto da ol */
 .links ol{
     margin-left: 20px;
+}
+.links a{
+    color: blue;
 }
 .links a:hover{
     font-size: 18px;
