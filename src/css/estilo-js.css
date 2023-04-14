@@ -80,8 +80,23 @@ body{
     margin: auto;
     margin-bottom: 30px;
 }
+.curso-guanabara a{
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .curso-guanabara ul{
     margin-left: 20px;
+}
+.curso-guanabara h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.aula4 img{
+    width: 370px;
+    height: 150px;
+    margin: 5px;
 }
 /* Estilização da div dos links */
 .links{
