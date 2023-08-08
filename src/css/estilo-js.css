@@ -132,3 +132,16 @@ body{
     font-size: 18px;
     color: red;
 }
+.aula5 ol{
+    margin-left: 50px;
+}
+.aula5 .tabela-operadores{
+    margin: 20px;
+}
+.aula5 .tabela-operadores th, td{
+    text-align: center;
+    padding: 5px;
+}
+.aula5 .tabela-operadores .col1{
+    background-color: var(--CorSite);
+}
