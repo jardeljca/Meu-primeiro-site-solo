@@ -4,8 +4,10 @@
 }
 /* Estilização do body */
 body{
-    padding: 10px;
-    display: flex;
+    margin: auto;
+    height: 100%;
+    max-width: 1024px;
+    display:  flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -16,17 +18,16 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-/* Estilização do cabeçalho */
+
 .cabecalho{
     background-color: var(--CorSite);
-    width: 90vw;
-    height: 80px;
-    border: 5px solid black;
-    padding: 10px;
+    width: 95vw;
+    height: 10%;
+    border: 2px solid black;
 }
 /* Estilização do titulo do cabeçalho */
 .cabecalho .texto-cabecalho{
-    font-size: 40px;
+    font-size: 3vw;
     font-family: 'Indie Flower', cursive;
     text-shadow: 1px 4px 4px #fff  ;
     text-align: center;
@@ -37,9 +38,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     width: 90vw;
-    font-size: 20px;
-    margin-top: 5px;
-    padding: 5px;
+    margin-top: 0px;
+    padding: 5px 0px 0px 0px;
     list-style: none;
 }
 /* Estilizacao dos botoes */
@@ -49,7 +49,10 @@ body{
 .botao-react img,
 .botao-git img,
 .botao-banco-dados img{
-    height: 80px;
+    height: 10vw;
+    width: 10vw;
+    padding: 0px;
+    margin: 0px;
     transition: all 1s linear;
 }
 .botao-html img:hover,
@@ -63,56 +66,55 @@ body{
 /* Estilizacao corpo do texto */
 .corpo{
     width: 90vw;
+    height: 90vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px;
+    margin: 20px 0px 20px 0px;
 }
 .area-img{
-    flex: 1;
-    width: 500px;
+    width: 50vw;
     display: flex;
     justify-content: center;
 }
 .corpo img{
-    height: 600px;
+    height: 70vw;
     width: auto;
-    margin-right: 30px;
+    margin: auto;
     border-radius: 40px;
     opacity: 0.9;
 }
 .texto-desc{
-    flex: 1;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.corpo .nome{
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.corpo .descricao{
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.corpo .nome{
-    flex: 1;
-    font-family: 'Indie Flower', cursive;
-    margin-top: 10px;
-    color: black;
-    font-size: 50px;
-    text-shadow: 5px 5px 10px white;
-}
-.corpo .descricao{
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-}
 .corpo h2{
-    font-size: 40px;
+    font-size: 5vw;
     font-family: 'Indie Flower', cursive;
-    text-shadow: 5px 5px 10px white;
-    margin-bottom: 20px;
+    text-shadow: 5px 5px 10px #000;
+    text-align: center;
+    color: #fff;
 }
 .corpo p{
     font-size: auto;
     text-indent: 50px;
     color: #fff;
+    padding: 5px;
 }
 .corpo a{
     text-decoration: inherit;
@@ -123,15 +125,23 @@ footer{
     width: 90vw;
     font-size: 20px;
     margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer ul{
+    width: 90vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+footer li{
+    margin: 10px;
+}
 footer img{
     width: 40px;
-    margin: 10px;
     margin-bottom: none;
     transition: all 1s linear;
     box-shadow: 10px 10px 5px black;
@@ -150,7 +160,70 @@ footer div{
     text-shadow: 2px 2px 1px black;
 }
 footer hr{
-    width: 40%;
+    width: 70%;
     display: block;
     margin: auto;
+}
+/* ################################################################################# */
+@media screen and (min-width: 371px) and (max-width: 600px) {
+    /* Estilização dos botões das páginas */
+    /* Estilizacao dos botoes */
+    .botao-html img,
+    .botao-css img,
+    .botao-js img,
+    .botao-react img,
+    .botao-git img,
+    .botao-banco-dados img{
+        height: 8vw;
+        width: 8vw;
+        padding: 0px;
+        margin: 0px;
+        transition: all 1s linear;
+    }
+    /* Estilizacao corpo do texto */
+    
+    .texto-desc{
+        width: 40vw;
+    }
+    .corpo h2{
+        font-size: 6vw;
+        text-shadow: 1px 1px 4px white;
+    }
+    .corpo p{
+        font-size: 9px;
+        text-indent: 20px;
+        padding: 2px;
+    }
+    /* Estilização footer */
+    footer{
+        margin-top: 3px;
+    }
+    footer li{
+        margin: 8px;
+    }
+    footer img{
+        width: 30px;
+        box-shadow: 5px 5px 3px black;
+        border-radius: 20px;
+    }
+    footer img:hover{
+        width: 40px;
+    }
+    footer div{
+        font-size: 10px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        text-shadow: 2px 2px 1px black;
+    }
+}
+/* ################################################################################# */
+@media screen and (min-width: 261px) and (max-width: 370px) {
+
+
+}
+/* ################################################################################# */
+@media screen and (min-width: 100px) and (max-width: 260px) {
+    body{
+        display: none;
+    }
 }
