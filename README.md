@@ -2,6 +2,9 @@
 
 Uso esse site para fazer anotações e praticar o aprendizado dos meus cursos, é algo bem pessoal, no entanto resolvi deixar público, além disso deixei na página principal com uma breve apresentação, como o exemplo abaixo, e minhas redes sociais.
 
+[Endereço:](https://jardeljca.github.io/Meu-primeiro-site-solo/){:target="_blank"}
+
+
 ![Texto Alternativo](./src/imagens/Foto-Jardel.jpg)
 
 Jardel de Castro Queiroz
